@@ -1,0 +1,165 @@
+body {
+	background: #95d3b1;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    margin-top: 150px;
+}
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+p {
+	font-weight: 600;
+}
+
+#filter {
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	background-color:#68c4b0;
+	color: #fff;
+	border-radius: 10px;
+	cursor: pointer;
+  }
+
+#filter:hover {
+	background-color: #6db1a2;
+}
+
+#delete {
+	border: none;
+	padding: 2px 15px;
+	border-radius: 7px;
+	color: #04A1BF;
+	background-color: #161718;
+	font-weight: normal;
+}
+
+#delete:hover {
+    background-color: #2d2f31;
+}
+
+#edit {
+	border: none;
+	padding: 2px 15px;
+	border-radius: 7px;
+	color: #04A1BF;
+	background-color: #161718;
+	font-weight: normal;
+}
+
+#edit:hover {
+    background-color: #2d2f31;
+}
+
+#undo {
+	border: none;
+	padding: 2px 15px;
+	border-radius: 7px;
+	color: #04A1BF;
+	background-color: #161718;
+	font-weight: normal;
+}
+
+#undo:hover {
+    background-color: #2d2f31;
+}
+
+#success {
+	border: none;
+	padding: 2px 15px;
+	border-radius: 7px;
+	color: #04A1BF;
+	background-color: #161718;
+	font-weight: normal;	
+}
+
+#success:hover {
+	background-color: #2d2f31;
+}
+
+.completed-task {
+	text-decoration: line-through;
+	color: #3b3535;
+  }
+  
+#input {
+	margin-left: 40px;
+}
+#submit {
+	border: none;
+	padding: 9px 15px;
+	border-radius: 8px;
+	color: #ffffff;
+	background-color: #585b5e;
+	font-weight: normal;
+	margin:3px;
+}
+
+#submit:hover {
+    background-color: #2d2f31;
+}
+
+#show {
+	border: none;
+	padding: 9px 15px;
+	border-radius: 8px;
+	color: #ffffff;
+	background-color: #585b5e;
+	font-weight: normal;
+	margin: 5px; ;
+}
+
+#show:hover {
+    background-color: #2d2f31;
+}
+
+span.time {
+	font-size: 0.7rem; 
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #d3e4dc;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	background: #59bba3;
+
+}
+
+li:hover {
+	background: #6db1a2;
+}
+
+li > button {
+	font-weight: normal;
+	border: none;
+	float: right;
+	font-weight: 800;
+	margin: 1px;
+}
+
+input {
+	border-radius: 7px;
+	min-width: 65%;
+	padding: 10px;
+	border: none;
+}
